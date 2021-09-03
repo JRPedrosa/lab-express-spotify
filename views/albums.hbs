@@ -1,0 +1,16 @@
+<div class="album">
+    {{#each allAlbums}}
+    
+        <p>{{name}}</p>
+
+        <img src="{{images.0.url}}" />
+
+        <form method='GET' action='/tracks/{{id}}'>
+            {{!-- <label>Artist</label> --}}
+            <button type='submit'>View Tracks</button>
+            </form>
+
+
+
+    {{/each}}
+</div> 

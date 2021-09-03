@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    /* padding: 0; */
+}
+
+.homeRow{
+    background-image: url("../images/spotify-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 630px;
+    height: 210px;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+.artist button {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.692);
+    border: none;
+    width: 150px;
+    height: 33px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.artist input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.search img {
+    width: 500px;
+}
+
+.search a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(90, 90, 90);
+    width: 500px;
+    text-align: center;
+    padding: 5px 0;
+}
+.search form {
+    width: 500px;
+    background-color: rgb(90, 90, 90);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.search button {
+    width: 170px;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgba(255, 0, 0, 0.692);
+    color: white;
+    border: none;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.album img {
+    width: 500px;
+}
+
+.album p {
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(90, 90, 90);
+    width: 500px;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.album form {
+    width: 500px;
+    background-color: rgb(90, 90, 90);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.album button {
+    width: 170px;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgba(255, 0, 0, 0.692);
+    color: white;
+    border: none;
+}
+
+
+.track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    width: 100 vh;
+
+}
+
+
+.track p {
+    margin-top: 50px;
+    font-size: 25px;
+}
